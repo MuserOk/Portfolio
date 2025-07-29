@@ -46,7 +46,7 @@ import { listaHabilidades } from "./habilidades.js";
 
 function generarHabilidades() {
     const divH = document.getElementById("divHabilidades");
-    divH.innerHTML = ""; // Limpia antes de renderizar
+    divH.innerHTML = "";
 
     listaHabilidades.forEach(hab => {
         const div = document.createElement("div");
